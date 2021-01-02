@@ -1,0 +1,82 @@
+[
+    {
+        "id":0,
+        "name":"A",
+        "image": "https://i.imgur.com/NWtoYt0.png",
+        "realName" :"retinol",
+        "products":"Cod, eggs, milk, meat, cheese, liver, sweet potatoes",
+        "benifit":"Supports vision, skin, bone and tooth growth, immunity and reproduction"
+    },
+    {
+        "id":1,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Thiamin.svg/1200px-Thiamin.svg.png",
+        "name":"B1",
+        "realName" :"thiamine",
+        "products":"Grains, beans, asparagus, flaxseed, spinach",
+        "benifit":"Supports energy metabolism"
+    },
+    {
+        "id":2,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Riboflavin.svg/1200px-Riboflavin.svg.png",
+        "name":"B2",
+        "realName" :"Riboflavin",
+        "products":"Almonds, eggs, sesame seeds, squid, spinach",
+        "benifit":"Supports energy metabolism, normal vision and skin health"
+    },
+    {
+        "id":3,
+        "name":"B3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Nicotinamid.svg/1200px-Nicotinamid.svg.png",
+        "realName" :"Niacin",
+        "products":"Fish, red meat, chicken, peanuts, sunflower seeds",
+        "benifit":"Supports energy metabolism, skin health, nervous system and digestive system"
+    },
+    {
+        "id":4,
+        "name":"B6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Pyridoxal-phosphate.svg/1200px-Pyridoxal-phosphate.svg.png",
+        "realName" :"Pyridoxine",
+        "products":"Chickpeas, fish, red meat, chicken, bananas, pistachios",
+        "benifit":"Amino acid and fatty acid metabolism, red blood cell production"
+    },
+    {
+        "id":5,
+        "name":"B12",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Cobalamin_skeletal.svg/1200px-Cobalamin_skeletal.svg.png",
+        "realName" :"Cyanocobalamin",
+        "products":"Shellfish, fish, soy products, red meat, cheese",
+        "benifit":"Used in new cell synthesis, helps break down fatty acids and amino acids, supports nerve cell maintenance"
+    },
+    {
+        "id":6,
+        "name":"C",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/L-Ascorbic_acid.svg/1200px-L-Ascorbic_acid.svg.png",
+        "realName" :"Ascor",
+        "products":"Red pepper, citrus fruits, kiwifruit, broccoli, kale",
+        "benifit":"Supports the growth and repair of body tissue"
+    },
+    {
+        "id":7,
+        "name":"D",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cholecalciferol2.svg/280px-Cholecalciferol2.svg.png",
+        "realName" :"Cholecalciferol",
+        "products":"Oily fish, tofu, dairy products, soymilk",
+        "benifit":"Promotes bone mineralization"
+    },
+    {
+        "id":8,
+        "name":"E",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Tocopherol%2C_alpha-.svg",
+        "realName" :"tocopherol",
+        "products":"Sunflower seeds, almonds, olive oil, broccoli",
+        "benifit":"Antioxidant, regulation of oxidation reactions, supports cell membrane stabilization"
+    },
+    {
+        "id":9,
+        "name":"K",
+        "image": "https://b.kisscc0.com/20180813/gxw/kisscc0-vitamin-k-phytonadione-coenzyme-q10-structure-phylloquinone-structure-5b724bfb94fbe1.2216696315342172116103.png",
+        "realName" :"Phytonadione",
+        "products":"Leafy green vegetables, soybeans cooked, pickles, blueberries",
+        "benifit":"Synthesis of blood-clotting proteins, regulates blood calcium"
+    }
+]

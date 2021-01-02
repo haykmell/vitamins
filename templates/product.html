@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overview</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap");
+        * {
+          box-sizing: border-box;
+          padding: 0;
+          margin: 0;
+        }
+        body {
+          font-family: "Roboto", sans-serif;
+          background: #363636;
+        }
+        .container {
+          max-width: 1000px;
+          margin: 0 auto;
+          padding: 0 10px;
+        }
+        a {
+          text-decoration: none;
+          color: inherit;
+        }
+        ul{
+            list-style: none;
+        }
+        .orange {
+          background-color: #faa250;
+        }
+        .yellow {
+          background-color: #eedf54;
+        }
+        .green {
+          background-color: #a4dd5c;
+        }
+        .blue {
+          background-color: #7080b8;
+        }
+        .red {
+          background-color: #df7a7a;
+        }
+        .peach {
+          background-color: peachpuff;
+        }
+
+        header {
+          background-color: #525252;
+          color: #fff;
+          padding: 1rem 0;
+        }
+        header .nav-logo {
+          font-size: 2rem;
+          text-transform: uppercase;
+          font-weight: 700;
+        }
+
+        main {
+          padding-top: 3rem;
+        }
+        .main-content {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+        .card {
+          width: 100%;
+          margin: 0 auto;
+          text-align: center;
+          margin-bottom: 2.5rem;
+        }
+        /* .card:hover{
+          background-color: plum !important;
+        } */
+        .card-info {
+          padding: 2rem;
+        }
+        .card .details-btn {
+          display: block;
+          width: 100%;
+          background-color: #4b4242;
+          color: #fff;
+          font-size: 1.2rem;
+          padding: 1rem;
+          transition: 0.2s;
+        }
+        .card .details-btn:hover {
+          background-color: rgb(92, 78, 78);
+        }
+        .vitamin-name {
+          font-weight: 200;
+          font-size: 3rem;
+        }
+        .vitamin-name span {
+          font-weight: 700;
+          display: block;
+          font-size: 6rem;
+          margin-top: 1rem;
+        }
+        .back-btn{
+            background-color: #fff;
+            font-weight: 700;
+            padding: 0.6rem 1.5rem;
+            border-radius: 3px;
+            display: block;
+            width: 6rem;
+            margin-left: 1.5rem;
+            margin-top: 1rem;
+        }
+        
+        .vitamin-info{
+            padding: 0rem 1.5rem;
+            text-align: left;
+            background-color: #fff;
+        }
+        .vitamin-info li {
+            padding: 1.5rem 0;
+            border-bottom: 1px solid #CDCDCD;
+            font-weight: 300;
+        }
+        .vitamin-info li:last-child{
+            border: none;
+        }
+
+        .item-title{
+            font-weight: 600;
+        }
+        img{
+          max-width: 100%;
+        }
+        .vitamin-formula{
+          margin-top: 1rem;
+        }
+
+        @media screen and (min-width: 480px) {
+          .card {
+            width: 80%;
+          }
+        }
+        @media screen and (min-width: 780px) {
+          .card {
+            width: 40%;
+          }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="/" class="nav-logo">Vitamins 💊</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="main-content"> 
+                <div class="card" style="background-color: #B5DDC3;">
+                    <a href="/" class="back-btn">BACK</a>
+                    <div class="card-info">
+                      <h1 class="vitamin-name">
+                        Vitamin <span>{%NAME%}</span>
+                      </h1>
+                      <img class="vitamin-formula" src="{%IMAGE%}" alt="">
+                    </div>
+                    <ul class="vitamin-info">
+                        <li><span class="item-title">Products:</span> {%VITAMIN_PRODUCTS%}</li>
+                        <li><span class="item-title">Benifit:</span> {%VITAMIN_BENIFIT%}</li>
+                    </ul>
+                </div>  
+            </div>
+        </div>
+    </main>
+</body>
+</html>

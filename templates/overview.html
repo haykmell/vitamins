@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overview</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap");
+        * {
+          box-sizing: border-box;
+          padding: 0;
+          margin: 0;
+        }
+        body {
+          font-family: "Roboto", sans-serif;
+          background: #363636;
+        }
+        .container {
+          max-width: 1000px;
+          margin: 0 auto;
+          padding: 0 10px;
+        }
+        a {
+          text-decoration: none;
+          color: inherit;
+        }
+
+        header {
+          background-color: #525252;
+          color: #fff;
+          padding: 1rem 0;
+        }
+        header .nav-logo {
+          font-size: 2rem;
+          text-transform: uppercase;
+          font-weight: 700;
+        }
+
+        main {
+          padding-top: 3rem;
+        }
+        .main-content {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+        .orange {
+          background-color: #faa250;
+        }
+        .yellow {
+          background-color: #eedf54;
+        }
+        .green {
+          background-color: #a4dd5c;
+        }
+        .blue {
+          background-color: #7080b8;
+        }
+        .red {
+          background-color: #df7a7a;
+        }
+        .peach {
+          background-color: peachpuff;
+        }
+        .card {
+          width: 100%;
+          text-align: center;
+          margin-bottom: 2.5rem;
+        }
+        /* .card:hover{
+          background-color: plum !important;
+        } */
+        .card-info {
+          padding: 2rem;
+        }
+        .card .details-btn {
+          display: block;
+          width: 100%;
+          background-color: #4b4242;
+          color: #fff;
+          font-size: 1.2rem;
+          padding: 1rem;
+          transition: 0.2s;
+        }
+        .card .details-btn:hover {
+          background-color: rgb(92, 78, 78);
+        }
+        .vitamin-name {
+          font-weight: 200;
+          font-size: 3rem;
+        }
+        .vitamin-name span {
+          font-weight: 700;
+          display: block;
+          font-size: 6rem;
+          margin-top: 1rem;
+        }
+
+        .real-name {
+          text-transform: capitalize;
+          font-weight: 200;
+          display: block;
+        }
+
+        @media screen and (min-width: 480px) {
+          .card {
+            width: 49%;
+          }
+          .main-content {
+            flex-direction: row;
+          }
+        }
+        @media screen and (min-width: 780px) {
+          .card {
+            width: 30%;
+          }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="/" class="nav-logo">Vitamins 💊</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="main-content">
+              {%PRODUCT_CARDS%}
+            </div>
+        </div>
+    </main>
+</body>
+</html>
